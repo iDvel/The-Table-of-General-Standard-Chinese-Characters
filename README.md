@@ -12,7 +12,7 @@
 
 https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8  
 
-这里面有几个字和《现代汉语规范词典》的注音不一样，比如「呒 m」和「欸 e」。
+这里面有几个字和《现代汉语规范词典》的注音不一样，比如「呒 m」和「欸 e」「嗯 ng、eng」，在 Rime 的字表中做了更正。
 
 <br>
 
@@ -20,6 +20,5 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 `8105无字频.dict.yaml`：格式为 `汉字\t注音`，方便自己套用任何字频。
 
-`8105四叶草字频.dict.yaml`：使用了 [fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)**  四叶草输入方案的字频。
-
+`8105四叶草字频.dict.yaml`：使用了 [fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)**  四叶草输入方案（v1.1.4）的字频。
 
