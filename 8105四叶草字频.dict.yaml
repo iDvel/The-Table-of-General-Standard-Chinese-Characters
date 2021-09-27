@@ -4,7 +4,8 @@
 # https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters
 #
 # 使用的数据：https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
-# 
+# 使用的字频：四叶草拼音输入方案 https://github.com/fkxxyz/rime-cloverpinyin
+#
 # 去重，如「曲 qū qǔ」去掉声调后都是「qu」，结合 Rime 的 derive/^([jqxy])u/$1v/ 用「qu」或「qv」都可以打出来。
 # 「nüe 虐」「lüe 略」使用了「nue」「lue」的注音。
 # 「lǜ 绿」「nǚ 女」等使用了「lv」「nv」的注音。
@@ -14,20 +15,24 @@
 # 「欸」四种「e」音，删除并只保留「ai」 。
 ---
 name: 8105
-version: "2021-09-08"
+version: "2021-09-27"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
 # ext：
-〇	ling	248
-囧	jiong	2904
-屌	diao	556
-艹	cao	231
-肏	cao	298
+〇	ling
+囧	jiong
+屌	diao
+艹	cao
+肏	cao
 冇	mao
+丼	jing
+卍	wan
+# 一些不在此字表，但几乎只在词组中才使用的字：
 曱甴	yue you
 朙月拼音	ming yue pin yin
 佇列	zhu lie
+郭明錤	guo ming ji
 
 
 # 8105
