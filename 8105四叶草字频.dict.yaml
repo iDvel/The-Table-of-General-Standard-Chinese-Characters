@@ -12,10 +12,10 @@
 # 「句、去、需」等使用了「ju qu xu」的注音。
 # 注释了「呣 ḿ」
 # 「嗯 ng、eng」修改为「en」。
-# 「欸」四种「e」音，删除并只保留「ai」 。
+# 删除「欸」四种「e」音，只保留「ai」 。
 ---
 name: 8105
-version: "2021-09-27"
+version: "2021-09-28"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -28,12 +28,14 @@ vocabulary: essay-zh-hans
 冇	mao
 丼	jing
 卍	wan
-# 一些不在此字表，但几乎只在词组中才使用的字：
+炁	qi
+# 一些不在字表，但几乎只在词组、语句中才使用的字：
 曱甴	yue you
 朙月拼音	ming yue pin yin
 佇列	zhu lie
 郭明錤	guo ming ji
-
+飘飖兮	piao yao xi
+飘飖兮若流风之回雪	piao yao xi ruo liu feng zhi hui xue
 
 # 8105
 一	yi	16410190
