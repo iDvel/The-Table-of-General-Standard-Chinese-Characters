@@ -21,7 +21,7 @@
 # 「哟you yao」「唷yao」只使用了「yo」的注音。
 ---
 name: 8105
-version: "2021-10-16"
+version: "2021-10-21"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -44,6 +44,7 @@ vocabulary: essay-zh-hans
 飘飖兮若流风之回雪	piao yao xi ruo liu feng zhi hui xue
 苦蘵	ku zhi
 秘鲁苦蘵	bi lu ku zhi
+声嘒嘒兮	sheng hui hui xi
 
 
 # 8105
