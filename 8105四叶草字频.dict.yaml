@@ -23,7 +23,7 @@
 # 注释了「豸zhai」，只在「冠豸山」中念「zhai」
 ---
 name: 8105
-version: "2021-11-21"
+version: "2021-12-05"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -38,6 +38,7 @@ vocabulary: essay-zh-hans
 丼	jing
 卍	wan
 炁	qi
+車	ju
 # 一些不在字表，但几乎不会单独打出，只在词组语句中才使用的字：（须要注音）
 朙月拼音	ming yue pin yin
 哪吒	ne zha
@@ -1630,7 +1631,7 @@ vocabulary: essay-zh-hans
 背	bei	734173
 战	zhan	543884
 点	dian	16660085
-虐	nve	87092
+虐	nue	87092
 临	lin	273770
 览	lan	89482
 竖	shu	126565
@@ -2394,7 +2395,7 @@ vocabulary: essay-zh-hans
 教	jiao	1238452
 掏	tao	154865
 掐	qia	137205
-掠	lve	58797
+掠	lue	58797
 掂	dian	85424
 培	pei	179540
 接	jie	2194395
@@ -2494,7 +2495,7 @@ vocabulary: essay-zh-hans
 趾	zhi	59878
 啃	ken	176944
 跃	yue	127490
-略	lve	174000
+略	lue	174000
 蚯	qiu	32259
 蛀	zhu	41054
 蛇	she	307450
