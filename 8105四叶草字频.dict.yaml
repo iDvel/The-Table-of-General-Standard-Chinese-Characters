@@ -1,29 +1,28 @@
 # Rime dictionary
 # encoding: utf-8
 #
+# 《通用规范汉字表》8105 字字表
 # https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters
 # https://github.com/iDvel/rime-settings
 #
 # 使用的数据：https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
 # 使用的字频：四叶草拼音输入方案 https://github.com/fkxxyz/rime-cloverpinyin
+# 排序：按照在《通用规范汉字表》的原始顺序排列，多音字并排排列
 #
-# ------- 
-# v 与 u：
+# ------- v 与 u：-------
 # 「nüe 虐」「lüe 略」使用了「nue」「lue」的注音。
 # 「句、去、需」等使用了「ju qu xu」的注音。
 # 结合 Rime 的 `derive/^([nl])ve$/$1ue/` 和 `derive/^([jqxy])u/$1v/` 用「qu」或「qv」都可以打出来。
 # 如果注音使用了 「nve」和「qv」，需要调换上面两行代码 v 和 u 的位置。
-# -------
+#
+# ------- 一些修改：-------
 # 去重，如「曲 qū qǔ」去掉声调后都是「qu」。
-# 注释了「呣 m」，在 custom_phrase.txt 中按顺序固顶。
 # 「嗯 ng、eng」修改为「en」。
 # 删除「欸」四种「e」音，只保留「ai」 。
 # 「哟you yao」「唷yao」只使用了「yo」的注音。
-# 注释了「无mo」，add「南na无mo」
-# 注释了「豸zhai」，只在「冠豸山」中念「zhai」
 ---
 name: 8105
-version: "2021-12-05"
+version: "2021-12-07"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -39,20 +38,6 @@ vocabulary: essay-zh-hans
 卍	wan
 炁	qi
 車	ju
-# 一些不在字表，但几乎不会单独打出，只在词组语句中才使用的字：（须要注音）
-朙月拼音	ming yue pin yin
-哪吒	ne zha
-曱甴	yue you
-佇列	zhu lie
-郭明錤	guo ming ji
-飘飖兮若流风之回雪	piao yao xi ruo liu feng zhi hui xue
-苦蘵	ku zhi
-秘鲁苦蘵	bi lu ku zhi
-声嘒嘒兮	sheng hui hui xi
-哼唷	heng yao
-南无	na mo
-南无阿弥陀佛	na mo e mi tuo fo
-冠豸山	guan zhai shan
 
 
 # 8105
@@ -140,7 +125,7 @@ vocabulary: essay-zh-hans
 天	tian	5377599
 夫	fu	381774
 元	yuan	3803657
-# 无	mo	1
+无	mo	1
 无	wu	4061661
 云	yun	1145473
 专	zhuan	376135
@@ -1683,7 +1668,6 @@ vocabulary: essay-zh-hans
 咪	mi	213230
 哪	na	3912438
 哪	ne	17041
-# 呣	m	28564
 哟	yo	993521
 炭	tan	86894
 峡	xia	86752
@@ -4031,7 +4015,7 @@ vocabulary: essay-zh-hans
 佥	qian	35597
 孚	fu	60013
 豸	zhi	45947
-# 豸	zhai	45947
+豸	zhai	45947
 坌	ben	30673
 肟	wo	41670
 邸	di	55894
@@ -4219,6 +4203,7 @@ vocabulary: essay-zh-hans
 咆	pao	33909
 咛	ning	37556
 呶	nao	38384
+呣	m	28564
 呦	you	89494
 咝	si	37042
 岢	ke	40888
@@ -6920,6 +6905,7 @@ vocabulary: essay-zh-hans
 仳	pi	30363
 伣	qian	18972
 伈	xin	39000
+癿	bie	1
 甪	lu	9786
 邠	bin	28815
 犴	an	29116
@@ -6977,6 +6963,7 @@ vocabulary: essay-zh-hans
 𫵷	li	1
 岠	ju	27961
 岜	ba	36761
+呇	men	1
 冏	jiong	35364
 觃	yan	16681
 岙	ao	46930
@@ -6995,6 +6982,7 @@ vocabulary: essay-zh-hans
 𣲗	wei	21721
 沄	yun	54601
 沘	bi	23283
+𬇙	bei	1
 汭	rui	28810
 㳇	fu	1
 沇	yan	23221
@@ -7038,6 +7026,7 @@ vocabulary: essay-zh-hans
 耵	ding	24724
 䢼	gong	1
 𦭜	zhi	1
+茋	di	1
 苧	ning	4741
 苾	bi	33131
 苠	min	26341
@@ -7116,6 +7105,7 @@ vocabulary: essay-zh-hans
 弢	tao	34542
 弨	chao	19442
 陑	er	22561
+𬮿	gai	1
 陎	shu	15061
 𬯀	ji	1
 卺	jin	30184
@@ -7221,6 +7211,7 @@ vocabulary: essay-zh-hans
 哃	tong	34442
 峘	huan	20887
 耑	duan	5651
+峛	lie	1
 𪨰	qu	1
 峗	wei	16444
 峧	jiao	1
@@ -7482,6 +7473,7 @@ vocabulary: essay-zh-hans
 绤	xi	19682
 骍	xing	22562
 𬘫	huan	1
+䂮	lue	1
 琎	jin	22436
 珸	wu	24301
 珵	cheng	26319
@@ -7494,6 +7486,7 @@ vocabulary: essay-zh-hans
 堐	ya	19682
 埼	qi	4622
 掎	ji	26403
+埫	tang	1
 堌	gu	23882
 晢	zhe	28670
 𫮃	shan	1
@@ -7523,14 +7516,18 @@ vocabulary: essay-zh-hans
 桲	po	23345
 梾	lai	25003
 桯	ting	23042
+梣	chen	1
+梣	qin	1
 梌	tu	16281
 桹	lang	17283
 敔	yu	24246
 厣	yan	37282
+硔	gong	1
 鿎	ta	1
 鿎	da	1
 硙	wei	20846
 硚	qiao	25086
+硊	hui	1
 硍	yin	61
 勔	mian	23240
 䴕	lie	121
@@ -7726,6 +7723,7 @@ vocabulary: essay-zh-hans
 奡	ao	24366
 皕	bi	25145
 硪	wo	70684
+欹	qi	1
 詟	zhe	20941
 𫐐	ni	121
 辌	liang	18481
@@ -7763,6 +7761,7 @@ vocabulary: essay-zh-hans
 铽	te	29645
 𨱇	qiu	601
 𫓶	xuan	19801
+锊	lue	1
 锍	liu	32078
 锎	kai	32360
 𬭎	hong	1
@@ -7814,6 +7813,7 @@ vocabulary: essay-zh-hans
 湝	jie	41063
 渰	yan	19336
 湓	pen	32865
+㴔	ji	1
 渟	ting	29343
 溠	zha	17161
 渼	mei	29587
@@ -7890,11 +7890,13 @@ vocabulary: essay-zh-hans
 碃	qing	23641
 碏	que	24008
 𬒔	geng	1
+碈	hun	1
 䃅	di	25621
 硿	kong	20823
 鄠	hu	23768
 辒	wen	36961
 𬨎	you	1
+𫐓	rou	1
 龆	tiao	35793
 觜	zi	33254
 䣘	tang	1
@@ -7922,6 +7924,7 @@ vocabulary: essay-zh-hans
 稑	lu	17341
 稙	zhi	20941
 䅟	can	18601
+𬕂	long	1
 筻	gang	20827
 筼	yun	31624
 筶	gao	19757
@@ -7976,6 +7979,7 @@ vocabulary: essay-zh-hans
 溦	wei	30421
 溵	yin	18720
 漷	huo	33366
+滧	xiao	1
 滘	jiao	41288
 滍	zhi	20281
 愭	qi	26978
@@ -8058,6 +8062,7 @@ vocabulary: essay-zh-hans
 蜾	guo	26102
 幖	biao	18004
 嶍	xi	19081
+圙	lue	1
 𨱏	da	1
 锺	zhong	7236
 锼	sou	31944
@@ -8137,6 +8142,7 @@ vocabulary: essay-zh-hans
 墦	fan	25287
 墡	shan	20308
 劐	huo	22921
+薁	ao	1
 蕰	wen	1
 蔃	qiang	22501
 鼒	zi	20161
@@ -8227,6 +8233,7 @@ vocabulary: essay-zh-hans
 薢	xie	26163
 蕹	weng	30679
 橞	hui	19923
+橑	liao	1
 橦	tong	626
 醑	xu	24966
 觱	bi	21600
@@ -8252,6 +8259,7 @@ vocabulary: essay-zh-hans
 幪	meng	26461
 𪩘	yan	25201
 嶦	shan	1
+𬭬	hui	1
 𨱑	huang	18841
 𬭯	pie	1
 馞	bo	17881
@@ -8485,26 +8493,3 @@ vocabulary: essay-zh-hans
 齇	zha	1
 觿	xi	21481
 蠼	qu	33174
-癿	bie	1
-呇	men	1
-𬇙	bei	1
-茋	di	1
-𬮿	gai	1
-峛	lie	1
-䂮	lue	1
-埫	tang	1
-梣	chen	1
-梣	qin	1
-硔	gong	1
-硊	hui	1
-欹	qi	1
-锊	lue	1
-㴔	ji	1
-碈	hun	1
-𫐓	rou	1
-𬕂	long	1
-滧	xiao	1
-圙	lue	1
-薁	ao	1
-橑	liao	1
-𬭬	hui	1
