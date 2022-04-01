@@ -22,7 +22,7 @@
 # 「哟you yao」「唷yao」只使用了「yo」的注音。
 ---
 name: 8105
-version: "2021-12-07"
+version: "2022-04-01"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -38,6 +38,7 @@ vocabulary: essay-zh-hans
 卍	wan
 炁	qi
 車	ju
+祂	ta
 
 
 # 8105
