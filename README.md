@@ -13,7 +13,7 @@
 
 https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%B4%A2%E5%BC%95/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8  
 
-此数据和一些字典中的注音并不完全一致（A 字典和 B 字典之间也不一样，我也不知道到底哪个最权威），使用前请注意并查阅。
+这个数据、《现汉7》、《现代汉语规范词典》之间的注音并不都相同，使用前请注意。
 
 <br>
 
@@ -39,7 +39,7 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 使用了 [fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)**  四叶草输入方案（v1.1.4）的字频。
 
-对少许注音做了一些修改，如「嗯 ng、eng」→「en」，「哟you yao」「唷yao」→「yo」，在注释里有注明。
+对少许注音做了一些修改，如「嗯 ng、eng」→「en」，「哟you yo」「喔 wo o」，在注释里有注明。
 
 增加了少许不在字表中的字：如「囧」「屌」「〇」等。
 
