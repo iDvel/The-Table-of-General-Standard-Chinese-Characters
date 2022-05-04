@@ -21,11 +21,16 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 「nüe 虐」「lüe 略」使用了「nue」「lue」的注音。
 
-「句、去、需、雨」使用了「ju qu xu yu」的注音。
+「句、去、需」等使用了「ju qu xu」的注音。
 
-结合 Rime 的 `derive/^([nl])ve$/$1ue/` 和 `derive/^([jqxy])u/$1v/` 用「qu」或「qv」都可以打出来。
+结合 Rime 的 `derive/^([nl])ve$/$1ue/` 和 `derive/^([jqxy])u/$1v/` 用「nue、qu」或「nve、qv」都可以打出来。
 
-如果注音使用了 「nve」和「qv」，需要调换上面两行代码 v 和 u 的位置。
+「虐」的正确注音其实是「nüe」，注音使用「nve」时，需要调换上面 v 和 u 的位置，或直接写两行：
+
+```yaml
+- derive/^([nl])ue$/$1ve/
+- derive/^([nl])ve$/$1ue/
+```
 
 <br>
 
