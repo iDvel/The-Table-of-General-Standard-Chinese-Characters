@@ -19,20 +19,11 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 ## Rime 的 `yaml` 字表
 
-「nüe 虐」「lüe 略」使用了「nue」「lue」的注音。
+「nüe 虐」「lüe 略」使用了「nve」「lve」的注音。
 
-「句、去、需」等使用了「ju qu xu」的注音。
+「句、去、需、雨」等使用了「ju qu xu yu」的注音。
 
-结合 Rime 的 `derive/^([nl])ve$/$1ue/` 和 `derive/^([jqxy])u/$1v/` 用「nue、qu」或「nve、qv」都可以打出来。
 
-「虐」的正确注音其实是「nüe」，注音使用「nve」时，需要调换上面 v 和 u 的位置，或直接写两行：
-
-```yaml
-- derive/^([nl])ue$/$1ve/
-- derive/^([nl])ve$/$1ue/
-```
-
-<br>
 
 ### `8105无字频.dict.yaml`：
 
@@ -40,7 +31,7 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 <br>
 
-### `8105四叶草字频.dict.yaml`：
+### 含字频的完整版：
 
 使用了 [fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)**  四叶草输入方案（v1.1.4）的字频。
 
@@ -48,9 +39,15 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 增加了少许不在字表中的字：如「囧」「屌」「〇」等。
 
+调整一些权重顺序。
+
+完善了常用多音字自动注音的问题。
+
+不在这个仓库更新了，需要的可以查看这里：[8105.dict.yaml](https://github.com/iDvel/rime-settings/blob/master/cn_dicts/8105.dict.yaml)
+
 <br>
 
-## 参考配置
+### 参考配置
 
 https://github.com/iDvel/rime-settings
 
