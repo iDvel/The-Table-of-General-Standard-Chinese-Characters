@@ -35,7 +35,7 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 使用了 [fkxxyz](https://github.com/fkxxyz)/**[rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin)**  四叶草输入方案（v1.1.4）的字频。
 
-对少许注音做了一些修改，如「嗯 ng、eng」→「en」，「哟you yo」「喔 wo o」，在注释里有注明。
+对少许注音做了一些修改，如「哟you yo」「喔 wo o」，在注释里有注明。
 
 增加了少许不在字表中的字：如「囧」「屌」「〇」等。
 
@@ -43,11 +43,11 @@ https://zh.wiktionary.org/wiki/Appendix:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E7%
 
 完善了常用多音字自动注音的问题。
 
-不在这个仓库更新了，需要的可以查看这里：[8105.dict.yaml](https://github.com/iDvel/rime-settings/blob/master/cn_dicts/8105.dict.yaml)
+不在这个仓库更新了，需要的可以查看这里：[8105.dict.yaml](https://github.com/iDvel/rime-ice/blob/master/cn_dicts/8105.dict.yaml)
 
 <br>
 
 ### 参考配置
 
-https://github.com/iDvel/rime-settings
+https://github.com/iDvel/rime-ice
 
